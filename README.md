@@ -8,9 +8,11 @@
     mvn clean install
     mvn dockerfile:build
     docker run -p 8080:8080 -t androiddavid/spring-boot-docker
-    docker ps (shows container id, which is the tag numnber you created)
+    docker ps 
     docker stop <container id>
     docker rm <container id>
     docker container ls -a (if you want to see all containers)
+    
+    
     
     
